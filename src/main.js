@@ -62,7 +62,7 @@ const pedirCarta = () => {
   let carta = Baraja.pop();
   jugador.push(carta);
   let nuevaCarta = document.createElement("img");
-  nuevaCarta.src = `src/cartas/${carta}.png`;
+  nuevaCarta.src = `public/cartas/${carta}.png`;
   nuevaCarta.setAttribute("class", "carta");
   nuevaCarta.setAttribute("id", carta);
   div_jugador.appendChild(nuevaCarta);
@@ -87,7 +87,7 @@ const parar = () => {
       let carta = Baraja.pop();
       PC.push(carta);
       let nuevaCarta = document.createElement("img");
-      nuevaCarta.src = `src/cartas/${carta}.png`;
+      nuevaCarta.src = `public/cartas/${carta}.png`;
       nuevaCarta.setAttribute("class", "carta");
       nuevaCarta.setAttribute("id", "PC-" + carta);
       div_PC.appendChild(nuevaCarta);
