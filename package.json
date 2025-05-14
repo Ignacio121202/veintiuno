@@ -12,7 +12,8 @@
     "vite": "^6.3.1"
   },
   "dependencies": {
-    "server": "^1.0.41",
+    "serve": "^14.2.4",
+    "server": "^0.0.3",
     "underscore": "^1.13.7"
   }
 }
