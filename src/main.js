@@ -61,7 +61,8 @@ const juegoNuevo = () => {
 const pedirCarta = () => {
   let carta = Baraja.pop();
   jugador.push(carta);
-  let nuevaCarta = document.createElement("img");
+  let nuevaCarta = document.createElement("img");7
+  
   nuevaCarta.src = `public/cartas/${carta}.png`;
   nuevaCarta.setAttribute("class", "carta");
   nuevaCarta.setAttribute("id", carta);
